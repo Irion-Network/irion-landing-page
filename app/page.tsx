@@ -38,13 +38,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#121412] text-white font-sans selection:bg-primary selection:text-black">
       {/* HERO SECTION - Neon Lime Background */}
-<<<<<<< HEAD
-      <div className="bg-[#00ca96] text-black w-full rounded-b-[3rem] lg:rounded-b-[4rem] px-6 lg:px-20 pb-20 relative overflow-hidden">
-        
-=======
       <div className="bg-[#ccff00] text-black w-full rounded-b-[3rem] lg:rounded-b-[4rem] px-6 lg:px-20 pb-20 relative overflow-hidden">
-
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
         {/* Header */}
         <header className="flex items-center justify-between py-6 max-w-[1400px] mx-auto z-10 relative">
           <Logo />
@@ -108,7 +102,7 @@ export default function Home() {
             className="bg-[#111] rounded-3xl p-6 shadow-2xl overflow-hidden border border-[#222]"
           >
             <div className="flex items-center gap-3 mb-8">
-              <div className="w-8 h-8 rounded-full bg-[#00ca96] flex items-center justify-center pt-1 text-black font-black text-xl leading-none">
+              <div className="w-8 h-8 rounded-full bg-[#ccff00] flex items-center justify-center pt-1 text-black font-black text-xl leading-none">
                 ♦
               </div>
               <span className="text-white font-bold text-sm tracking-wide">oblETH Collateral</span>
@@ -116,66 +110,42 @@ export default function Home() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-[#1a1a1a] rounded-xl p-4 col-span-1 h-32 flex flex-col justify-between">
-                <span className="text-[#00ca96] text-[8px] font-bold uppercase tracking-widest">Credit Utilization</span>
+                <span className="text-[#ccff00] text-[8px] font-bold uppercase tracking-widest">Credit Utilization</span>
                 <div className="flex items-end gap-1 h-16">
                   {/* Mock Bar Chart */}
-<<<<<<< HEAD
-                  {[4,5,6,6,7,8,8,9,9,10,11,12,13,15,18,22].map((h, i) => (
-                    <div key={i} className="bg-[#00ca96] w-full rounded-sm" style={{ height: `${h * 4}%` }} />
-=======
                   {[4, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 12, 13, 15, 18, 22].map((h, i) => (
                     <div key={i} className="bg-[#ccff00] w-full rounded-sm" style={{ height: `${h * 4}%` }} />
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
                   ))}
                 </div>
               </div>
 
               <div className="grid grid-rows-2 gap-4 col-span-1">
-<<<<<<< HEAD
-                 <div className="bg-[#1a1a1a] rounded-xl p-4 flex flex-col justify-center">
-                    <span className="text-[#00ca96] text-[8px] font-bold uppercase tracking-widest mb-1">Interest Rate</span>
-                    <span className="text-white font-bold text-xl">4.2%</span>
-                 </div>
-                 <div className="bg-[#1a1a1a] rounded-xl p-4 flex flex-col justify-center">
-                    <span className="text-[#00ca96] text-[8px] font-bold uppercase tracking-widest mb-1">Credit Manager</span>
-                    <span className="text-white font-medium text-xs opacity-80 truncate">0x73e...eDd9</span>
-                 </div>
-=======
                 <div className="bg-[#1a1a1a] rounded-xl p-4 flex flex-col justify-center">
                   <span className="text-[#ccff00] text-[8px] font-bold uppercase tracking-widest mb-1">Interest Rate</span>
                   <span className="text-white font-bold text-xl">4.2%</span>
                 </div>
                 <div className="bg-[#1a1a1a] rounded-xl p-4 flex flex-col justify-center">
                   <span className="text-[#ccff00] text-[8px] font-bold uppercase tracking-widest mb-1">Credit Manager</span>
-                  <span className="text-white font-medium text-xs opacity-80 truncate">0x73e...eDd9</span>
+                  <span className="text-white font-medium text-xs opacity-80 truncate">Algorand Wallet</span>
                 </div>
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
               </div>
 
               <div className="bg-[#1a1a1a] rounded-xl p-4 col-span-1 h-32 flex flex-col">
-                <span className="text-[#00ca96] text-[8px] font-bold uppercase tracking-widest mb-auto">Total Debt</span>
+                <span className="text-[#ccff00] text-[8px] font-bold uppercase tracking-widest mb-auto">Total Debt</span>
                 {/* Mock Line Chart SVG Curve */}
-                <svg viewBox="0 0 100 50" className="w-full h-16 stroke-[#00ca96] fill-none" preserveAspectRatio="none">
+                <svg viewBox="0 0 100 50" className="w-full h-16 stroke-[#ccff00] fill-none" preserveAspectRatio="none">
                   <path d="M0,45 C20,40 40,40 60,30 C80,20 90,10 100,5" strokeWidth="1" />
                 </svg>
               </div>
 
               <div className="bg-[#1a1a1a] rounded-xl p-4 col-span-1 flex flex-col justify-center">
-                <span className="text-[#00ca96] text-[8px] font-bold uppercase tracking-widest mb-2">Credit Limit</span>
+                <span className="text-[#ccff00] text-[8px] font-bold uppercase tracking-widest mb-2">Credit Limit</span>
                 <div className="h-2 w-full bg-[#333] rounded-full flex overflow-hidden">
-<<<<<<< HEAD
-                   <div className="h-full bg-[#00ca96] w-[60%]"></div>
-                   {/* Dotted lines effect over it */}
-                   <div className="absolute h-2 w-[calc(50%-2rem)] flex gap-[2px]">
-                     {Array.from({length: 30}).map((_, i) => <div key={i} className="h-full w-[2px] bg-black/50"></div>)}
-                   </div>
-=======
                   <div className="h-full bg-[#ccff00] w-[60%]"></div>
                   {/* Dotted lines effect over it */}
                   <div className="absolute h-2 w-[calc(50%-2rem)] flex gap-[2px]">
                     {Array.from({ length: 30 }).map((_, i) => <div key={i} className="h-full w-[2px] bg-black/50"></div>)}
                   </div>
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
                 </div>
               </div>
             </div>
@@ -199,38 +169,20 @@ export default function Home() {
           className="bg-gradient-to-r from-black via-[#050505] to-black border border-white/10 rounded-2xl p-8 lg:p-12 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden"
         >
           {/* Mock 3D YO logo graphic */}
-<<<<<<< HEAD
-          <div className="absolute left-0 top-0 bottom-0 w-1/3 bg-gradient-to-r from-[#00ca96]/10 to-transparent blur-3xl z-0"></div>
-          
-          <div className="flex items-center gap-12 z-10 w-full">
-            <div className="hidden lg:flex relative w-32 h-32 items-center justify-center transform -rotate-12">
-              <div className="text-[120px] font-black leading-none text-transparent" style={{ WebkitTextStroke: '2px #00ca96', textShadow: "0 0 20px rgba(204,255,0,0.5)"}}>
-=======
           <div className="absolute left-0 top-0 bottom-0 w-1/3 bg-gradient-to-r from-[#ccff00]/10 to-transparent blur-3xl z-0"></div>
 
           <div className="flex items-center gap-12 z-10 w-full">
             <div className="hidden lg:flex relative w-32 h-32 items-center justify-center transform -rotate-12">
               <div className="text-[120px] font-black leading-none text-transparent" style={{ WebkitTextStroke: '2px #ccff00', textShadow: "0 0 20px rgba(204,255,0,0.5)" }}>
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
                 O
               </div>
-              <div className="absolute translate-x-12 translate-y-4 text-[120px] font-black leading-none text-[#00ca96] drop-shadow-[0_0_30px_rgba(204,255,0,0.4)]">
+              <div className="absolute translate-x-12 translate-y-4 text-[120px] font-black leading-none text-[#ccff00] drop-shadow-[0_0_30px_rgba(204,255,0,0.4)]">
                 O
               </div>
             </div>
 
             <div className="flex-1 text-center md:text-left">
               <h2 className="text-xl lg:text-3xl font-bold text-white uppercase tracking-tight">
-<<<<<<< HEAD
-                <span className="text-[#00ca96]">Introducing Irion:</span><br/>
-                Confidential Buy Now, Pay Later on Zama
-              </h2>
-            </div>
-            
-            <Link 
-              href="https://app.irion.network" 
-              className="bg-[#00ca96] text-black font-bold text-xs uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white hover:scale-105 transition-all whitespace-nowrap"
-=======
                 <span className="text-[#ccff00]">Developing Irion:</span><br />
                 Unified Infrastructure for Global Finance
               </h2>
@@ -239,7 +191,6 @@ export default function Home() {
             <Link
               href="https://app.irion.network"
               className="bg-[#ccff00] text-black font-bold text-xs uppercase tracking-wider px-8 py-4 rounded-full hover:bg-white hover:scale-105 transition-all whitespace-nowrap"
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
             >
               Get Started
             </Link>
@@ -352,31 +303,6 @@ export default function Home() {
         >
           {/* Radial Dot Pattern Graphic */}
           <div className="relative w-64 h-64 flex items-center justify-center">
-<<<<<<< HEAD
-             <div className="absolute inset-0 flex items-center justify-center">
-                {/* Dots */}
-                <div className="grid grid-cols-5 gap-6 opacity-30">
-                  {Array.from({length: 25}).map((_,i) => <div key={i} className="w-1 h-1 bg-white rounded-full"></div>)}
-                </div>
-             </div>
-             {/* Circular layout */}
-             <div className="relative w-48 h-48 border border-white/5 rounded-full flex items-center justify-center animate-[spin_60s_linear_infinite]">
-                {[0,45,90,135,180,225,270,315].map((deg) => (
-                  <div key={deg} className="absolute w-8 h-8 rounded-full bg-white/5 backdrop-blur-sm border border-white/10"
-                       style={{ transform: `rotate(${deg}deg) translateY(-80px)` }}></div>
-                ))}
-             </div>
-             {/* Center YO */}
-             <div className="absolute text-5xl font-black text-[#00ca96] tracking-tighter">Irion</div>
-          </div>
-
-          <div className="max-w-md text-center lg:text-left z-10">
-            <h2 className="text-3xl lg:text-4xl font-black text-[#00ca96] uppercase tracking-tight leading-[0.9] mb-4">
-              Decentralized &<br/>Trustless
-            </h2>
-            <p className="font-medium text-sm lg:text-base opacity-80 leading-relaxed text-[#00ca96]/90">
-              Maintain full ownership of your collateral. Smart contracts handle LTV calculations, liquidation, and settlement automatically.
-=======
             <div className="absolute inset-0 flex items-center justify-center">
               {/* Dots */}
               <div className="grid grid-cols-5 gap-6 opacity-30">
@@ -400,7 +326,6 @@ export default function Home() {
             </h2>
             <p className="font-medium text-sm lg:text-base opacity-80 leading-relaxed text-[#ccff00]/90">
               Leveraging the Algorand Virtual Machine for ironclad settlement. Smart contracts handle LTV calculations, risk-weighting, and compliance automatically.
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
             </p>
           </div>
         </motion.section>
@@ -412,42 +337,36 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center z-10 relative">
             <div>
-              <span className="text-[#00ca96] text-xs font-bold uppercase tracking-[0.3em] mb-4 block">For Businesses</span>
+              <span className="text-[#ccff00] text-xs font-bold uppercase tracking-[0.3em] mb-4 block">For Businesses</span>
               <h2 className="text-4xl lg:text-6xl font-black text-white uppercase tracking-tight leading-[0.9] mb-8">
                 Empower Your<br />Sales with<br />Irion Merchant.
               </h2>
               <ul className="flex flex-col gap-6 mb-10">
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 rounded-full bg-[#00ca96]/10 border border-[#00ca96]/30 flex items-center justify-center text-[#00ca96] text-xs mt-1">✓</div>
+                  <div className="w-6 h-6 rounded-full bg-[#ccff00]/10 border border-[#ccff00]/30 flex items-center justify-center text-[#ccff00] text-xs mt-1">✓</div>
                   <div>
                     <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-1">Autonomous Yield</h4>
                     <p className="text-white/60 text-xs">Idle treasury balances are automatically deployed to earn yield, ensuring capital efficiency at all times.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 rounded-full bg-[#00ca96]/10 border border-[#00ca96]/30 flex items-center justify-center text-[#00ca96] text-xs mt-1">✓</div>
+                  <div className="w-6 h-6 rounded-full bg-[#ccff00]/10 border border-[#ccff00]/30 flex items-center justify-center text-[#ccff00] text-xs mt-1">✓</div>
                   <div>
                     <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-1">FX Hedging</h4>
                     <p className="text-white/60 text-xs">Protect your margins from currency volatility with integrated on-chain FX rebalancing and forwards.</p>
                   </div>
                 </li>
                 <li className="flex items-start gap-4">
-                  <div className="w-6 h-6 rounded-full bg-[#00ca96]/10 border border-[#00ca96]/30 flex items-center justify-center text-[#00ca96] text-xs mt-1">✓</div>
+                  <div className="w-6 h-6 rounded-full bg-[#ccff00]/10 border border-[#ccff00]/30 flex items-center justify-center text-[#ccff00] text-xs mt-1">✓</div>
                   <div>
                     <h4 className="font-bold text-white text-sm uppercase tracking-wider mb-1">Global Accessibility</h4>
                     <p className="text-white/60 text-xs">Settle cross-border obligations with local-equivalent efficiency, designed for the scale of modern SMEs.</p>
                   </div>
                 </li>
               </ul>
-<<<<<<< HEAD
-              <Link 
-                href="https://merchants.irion.network" 
-                className="bg-[#00ca96] text-black font-bold text-xs uppercase tracking-wider px-10 py-5 rounded-full hover:bg-white hover:scale-105 transition-all inline-block"
-=======
               <Link
                 href="https://merchants.irion.network"
                 className="bg-[#ccff00] text-black font-bold text-xs uppercase tracking-wider px-10 py-5 rounded-full hover:bg-white hover:scale-105 transition-all inline-block"
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
               >
                 Go To Merchant Portal
               </Link>
@@ -481,34 +400,11 @@ export default function Home() {
                         <div className="text-[8px] text-[#ccff00] font-bold uppercase">USDC</div>
                       </div>
                     </div>
-<<<<<<< HEAD
-                  </div>
-                  <div className="text-5xl font-black text-white tracking-tighter mb-8">$142,504<span className="text-[#00ca96] text-sm opacity-60 ml-2">.20</span></div>
-                  
-                  <div className="space-y-4">
-                     {[1,2,3].map((item) => (
-                       <div key={item} className="p-4 bg-zinc-900/50 rounded-xl flex items-center justify-between border border-white/5">
-                          <div className="flex items-center gap-4">
-                             <div className="w-10 h-10 rounded bg-[#00ca96]/10 border border-[#00ca96]/20 flex items-center justify-center text-[#00ca96]">🛒</div>
-                             <div>
-                                <div className="text-xs font-bold text-white uppercase tracking-wide">Sale #{1028 + item}</div>
-                                <div className="text-[10px] text-white/40 font-medium">Pending Settlement</div>
-                             </div>
-                          </div>
-                          <div className="text-right">
-                             <div className="text-xs font-bold text-white">$1,250.00</div>
-                             <div className="text-[8px] text-[#00ca96] font-bold uppercase">USDC</div>
-                          </div>
-                       </div>
-                     ))}
-                  </div>
-=======
                   ))}
                 </div>
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
               </div>
               {/* Decorative elements */}
-              <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#00ca96] rounded-full blur-[100px] opacity-20 pointer-events-none"></div>
+              <div className="absolute -top-10 -right-10 w-32 h-32 bg-[#ccff00] rounded-full blur-[100px] opacity-20 pointer-events-none"></div>
               <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-blue-500 rounded-full blur-[120px] opacity-10 pointer-events-none"></div>
             </div>
           </div>
@@ -520,16 +416,12 @@ export default function Home() {
           className="py-32 flex flex-col items-center justify-center text-center px-4"
         >
           <h2 className="text-4xl lg:text-6xl font-black uppercase tracking-tight leading-[0.9] mb-12">
-<<<<<<< HEAD
-            <span className="text-[#00ca96]">Join Our Community</span><br/>
-=======
             <span className="text-[#ccff00]">Join Our Community</span><br />
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
             For The Latest Updates
           </h2>
           <a
             href="https://t.me/Irion"
-            className="bg-[#00ca96] text-black font-bold text-sm uppercase tracking-wider px-10 py-5 rounded-full hover:bg-white hover:scale-105 transition-all flex items-center gap-3"
+            className="bg-[#ccff00] text-black font-bold text-sm uppercase tracking-wider px-10 py-5 rounded-full hover:bg-white hover:scale-105 transition-all flex items-center gap-3"
           >
             <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.54-.36-.63-.2-1.12-.31-1.08-.65.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.28-.01.07.01.19 0 .33z" /></svg>
             Join Telegram
@@ -542,16 +434,6 @@ export default function Home() {
           className="bg-[#212320] text-white rounded-3xl overflow-hidden flex flex-col lg:flex-row mb-12"
         >
           <div className="w-full lg:w-1/2 min-h-[300px] border-r border-[#333] relative p-8">
-<<<<<<< HEAD
-             {/* Mock grid wireframe graphic */}
-             <div className="absolute inset-0 bg-[linear-gradient(to_right,#333_1px,transparent_1px),linear-gradient(to_bottom,#333_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30"></div>
-             <div className="absolute inset-0 flex items-center justify-center mix-blend-screen opacity-50">
-               <div className="w-48 h-48 border-[2px] border-[#00ca96] rounded-full translate-x-12"></div>
-               <div className="w-0 h-0 border-l-[100px] border-l-transparent border-t-[150px] border-t-white/30 border-r-[100px] border-r-transparent -translate-x-12 translate-y-12 backdrop-blur-md"></div>
-             </div>
-             <div className="absolute w-full h-[1px] bg-[#00ca96]/40 rotate-12 top-1/2 -left-10"></div>
-             <div className="absolute w-[1px] h-full bg-[#00ca96]/40 rotate-[30deg] left-1/3 top-0"></div>
-=======
             {/* Mock grid wireframe graphic */}
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#333_1px,transparent_1px),linear-gradient(to_bottom,#333_1px,transparent_1px)] bg-[size:4rem_4rem] opacity-30"></div>
             <div className="absolute inset-0 flex items-center justify-center mix-blend-screen opacity-50">
@@ -560,22 +442,16 @@ export default function Home() {
             </div>
             <div className="absolute w-full h-[1px] bg-[#ccff00]/40 rotate-12 top-1/2 -left-10"></div>
             <div className="absolute w-[1px] h-full bg-[#ccff00]/40 rotate-[30deg] left-1/3 top-0"></div>
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
           </div>
           <div className="p-12 lg:p-16 lg:w-1/2 flex flex-col justify-center">
-            <h2 className="text-3xl lg:text-4xl font-black text-[#00ca96] uppercase tracking-tight leading-[0.9] mb-4">
+            <h2 className="text-3xl lg:text-4xl font-black text-[#ccff00] uppercase tracking-tight leading-[0.9] mb-4">
               Build With Irion
             </h2>
-<<<<<<< HEAD
-            <p className="font-medium text-sm lg:text-base opacity-80 mb-8 text-[#00ca96]/90">
-              Integrate Irion into your dApp or storefront to offer instant Web3 BNPL checkout to your customers.
-=======
             <p className="font-medium text-sm lg:text-base opacity-80 mb-8 text-[#ccff00]/90">
               Explore how Irion's unified infrastructure can empower your financial ecosystem or business operations.
->>>>>>> 3bbe2e764ea06a1c0ce647d2efddb1fbb95f0dc5
             </p>
             <div>
-              <button className="bg-[#00ca96] text-black font-bold text-xs uppercase tracking-wider px-8 py-3 rounded-full hover:bg-white transition-all">
+              <button className="bg-[#ccff00] text-black font-bold text-xs uppercase tracking-wider px-8 py-3 rounded-full hover:bg-white transition-all">
                 Get In Touch
               </button>
             </div>

@@ -9,11 +9,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Irion Network | Unified Financial Infrastructure",
-  description: "ZK-Private credit rails for the unbanked and automated cross-border treasury management on Algorand.",
+  description: "Yield-serviced credit rails and automated liquidity management infrastructure built on Algorand.",
   icons: {
-    icon: "/Irion.png",
-    shortcut: "/Irion.png",
-    apple: "/Irion.png",
+    icon: "/Irion_logo.svg",
+    shortcut: "/Irion_logo.svg",
+    apple: "/Irion_logo.svg",
   },
 };
 

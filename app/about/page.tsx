@@ -42,12 +42,12 @@ export default function About() {
             <main className="pt-32 pb-20 px-6 lg:px-40 max-w-[1400px] mx-auto">
                 <motion.div {...fadeInUp} className="mb-20">
                     <h1 className="text-4xl lg:text-7xl font-black mb-8 leading-tight">
-                        Building the <span className="text-primary">Future</span> of <br /> Decentralized Finance.
+                        Building the <span className="text-primary">Future</span> of <br /> On-Chain Credit.
                     </h1>
                     <p className="text-slate-400 text-lg lg:text-xl leading-relaxed max-w-3xl">
-                        Irion is an institutional-grade fintech layer built on the Monad blockchain.
+                        Irion Network is a financial infrastructure layer built on the Algorand blockchain.
                         We are dedicated to creating secure, non-custodial payment and credit infrastructure
-                        that bridges the gap between traditional commerce and the decentralized world.
+                        that empowers users to spend while their assets earn.
                     </p>
                 </motion.div>
 
@@ -55,15 +55,15 @@ export default function About() {
                     <motion.div {...fadeInUp} transition={{ delay: 0.1 }}>
                         <h2 className="text-2xl lg:text-4xl font-bold mb-6">Our Mission</h2>
                         <p className="text-slate-400 leading-relaxed mb-6">
-                            Our mission is to empower global commerce by providing scalable, permissionless, and
-                            formally verified financial rails. We believe in the power of decentralization to
-                            bring financial services to the unbanked and to eliminate intermediaries in global trade.
+                            Our mission is to democratize credit by leveraging the power of on-chain yield. 
+                            We believe that debt shouldn't be a burden — it should be a self-liquidating 
+                            engine powered by your own productivity. 
                         </p>
                         <div className="p-8 rounded-2xl bg-card-dark border border-white/5">
-                            <h4 className="font-bold text-primary mb-2">Institutional Grade</h4>
+                            <h4 className="font-bold text-primary mb-2">Algorand Powered</h4>
                             <p className="text-xs text-slate-500">
-                                We use Solidity and optimized EVM byte-code to ensure our smart contracts meet the highest
-                                security standards for institutional adoption on Monad.
+                                We utilize Algorand's high-performance AVM to ensure our credit and collateral 
+                                modules are lightning-fast, secure, and ready for global commerce.
                             </p>
                         </div>
                     </motion.div>
@@ -72,9 +72,9 @@ export default function About() {
                         <h2 className="text-2xl lg:text-4xl font-bold mb-6">The Team</h2>
                         <p className="text-slate-400 leading-relaxed">
                             We are a group of veteran software engineers, financial researchers, and
-                            blockchain pioneers. With deep expertise in high-performance EVM development, we were
-                            recognized as winners of the Cardano Emurgo Build 2023 for our technical
-                            excellence in DeFi infrastructure.
+                            blockchain pioneers. With deep expertise in high-performance smart contract development 
+                            and DeFi architecture, we focus on building institutional-grade rails for the next 
+                            generation of fintech.
                         </p>
                     </motion.div>
                 </section>
@@ -103,7 +103,7 @@ export default function About() {
                         <span className="font-bold">Irion</span>
                     </div>
                     <p className="text-[10px] text-slate-500 uppercase tracking-widest">
-                        © 2024 Irion Finance. Built on Monad.
+                        © 2026 Irion Network. Built on Algorand.
                     </p>
                 </div>
             </footer>

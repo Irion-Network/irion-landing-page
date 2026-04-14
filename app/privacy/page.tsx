@@ -56,7 +56,7 @@ export default function Privacy() {
                         <section>
                             <h3 className="text-xl font-bold text-white mb-4">2. Blockchain Data</h3>
                             <p>
-                                Transactions made using Irion protocols are recorded on the Monad blockchain.
+                                Transactions made using Irion protocols are recorded on the Algorand blockchain.
                                 This data is public by design and includes wallet addresses and transaction
                                 amounts. We do not have control over this data.
                             </p>

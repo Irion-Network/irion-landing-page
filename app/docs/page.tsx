@@ -24,10 +24,10 @@ const Logo = ({ className = "" }: { className?: string }) => (
 
 export default function Docs() {
     const categories = [
-        { title: "Introduction", items: ["What is Irion?", "Architecture", "Monad Integration"] },
+        { title: "Introduction", items: ["What is Irion?", "Architecture", "Algorand Integration"] },
         { title: "Payments", items: ["Merchant SDK", "Stablecoin Support", "Settlement Logic"] },
         { title: "Credit", items: ["BNPL Protocol", "Risk Models", "Liquidity Pools"] },
-        { title: "Smart Contracts", items: ["Solidity", "EVM Implementation", "Audits"] },
+        { title: "Smart Contracts", items: ["Algorand Python", "AVM Implementation", "Audits"] },
     ];
 
     return (
@@ -78,7 +78,7 @@ export default function Docs() {
                             {[
                                 { title: "Quickstart", desc: "Get up and running in minutes.", icon: "bolt" },
                                 { title: "API Reference", desc: "Detailed endpoint documentation.", icon: "api" },
-                                { title: "SDKs", desc: "Libraries for JavaScript, Rust, and Solidity.", icon: "terminal" },
+                                { title: "SDKs", desc: "Libraries for JavaScript, Python, and Go.", icon: "terminal" },
                                 { title: "Community", desc: "Join our developer discord.", icon: "forum" }
                             ].map((card, i) => (
                                 <div key={i} className="p-8 rounded-2xl bg-card-dark border border-white/5 hover:border-primary/20 transition-all cursor-pointer group">
@@ -92,7 +92,7 @@ export default function Docs() {
                         <article className="prose prose-invert max-w-none text-slate-400">
                             <h2 className="text-white text-3xl font-bold mb-6">High Performance Infrastructure</h2>
                             <p className="mb-6">
-                                Irion is built from the ground up to leverage Monad's parallel execution model.
+                                Irion is built from the ground up to leverage Algorand's high-speed consensus and instant finality.
                                 Our infrastructure is designed for extreme throughput and predictable transaction costs.
                             </p>
                             <div className="bg-slate-900 rounded-xl p-6 font-mono text-sm border border-white/5 mb-8">
